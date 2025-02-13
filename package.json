@@ -1,0 +1,19 @@
+{
+  "name": "mpm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "mpm": "bin/mpm.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["package-manager", "cli", "nodejs"],
+  "author": "Vinay kumar",
+  "license": "ISC",
+  "description": "A minimal package manager (mpm) for installing, uninstalling, and managing dependencies.",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "lodash": "^4.17.21"
+  }
+}
